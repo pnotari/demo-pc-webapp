@@ -7,4 +7,4 @@ def ping_pong():
     return jsonify({"message": "pong"})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
